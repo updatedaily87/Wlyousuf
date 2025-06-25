@@ -7,8 +7,8 @@ from aiogram.client.default import DefaultBotProperties
 from datetime import datetime, timedelta
 import aiohttp
 
-API_TOKEN = "7359445506:AAElzP9Bb_uPrkXiqRxm7npe3-uqhIFfmpY"
-ALLOWED_GROUP_ID = -1002837440798
+API_TOKEN = "8054635002:AAGgwMn5HMvItxMna88tIda6b7f0U-DpNmM"
+ALLOWED_GROUP_ID = -1002596810826
 VIP_USER_ID = 5490613126
 
 bot = Bot(API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
@@ -19,18 +19,18 @@ like_usage = {"BD": 0, "IND": 0}
 
 def join_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📢 Join Channel", url="https://t.me/wlbittu")],
+        [InlineKeyboardButton(text="📢 Join Channel", url="https://t.me/bittu_like")],
     ])
 
 def vip_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📢 Join Channel", url="https://t.me/wlbittu")],
+        [InlineKeyboardButton(text="📢 Join Channel", url="https://t.me/bittu_like")],
         [InlineKeyboardButton(text="🤖 Use VIP Bot", url="https://t.me/wlbittu_bot")],
     ])
 
 def verify_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="✅ Join Group To Get Likes", url="https://t.me/wlbittu")],
+        [InlineKeyboardButton(text="✅ Join Group To Get Likes", url="https://t.me/bittu_like")],
     ])
 
 def reset_daily_limits():
