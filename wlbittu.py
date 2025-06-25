@@ -88,7 +88,7 @@ async def like_handler(msg: Message):
         return
 
     wait = await msg.reply("⏳ Sending Likes, Please Wait.....")
-    url = f"https://wlyousuf.onrender.com/like?uid={uid}&region={region.lower()}&key=wlbittu"
+    url = f"https://wlyousuf.onrender.com"
     data = await fetch_json(url)
 
     if not data:
