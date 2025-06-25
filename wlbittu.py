@@ -30,7 +30,7 @@ def vip_keyboard():
 
 def verify_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="✅ Join Group To Get Likes", url="https://t.me/bittu_like")],
+        [InlineKeyboardButton(text="✅ Join Group To Get Likes", url="https://t.me/wlbittu_bot")],
     ])
 
 def reset_daily_limits():
